@@ -1,0 +1,86 @@
+/* heebo-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/main/fonts/heebo-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* heebo-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/main/fonts/heebo-v22-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* heebo-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/main/fonts/heebo-v22-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* heebo-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./assets/main/fonts/heebo-v22-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------------- Home page Section Begin ---------------------*/
+
+.home{
+  height: 75vh;
+}
+
+
+/*------------------- Home Post page Section Begin ---------------------*/
+
+.resent_post {
+  background: #edf7fa;
+}
+
+/*------------------- Home Post page Section End ---------------------*/
+
+
+@media screen and (max-width: 768px) {
+ .home_mb {
+  display: block;
+ }
+ .home_mb .home_text h1,  .home_mb .home_text p{
+  width: 100% !important;
+ }
+}
+
+@media screen and (max-width: 768px) {
+  .home_mb {
+   display: none;
+  }
+  
+ }
+
+ 
+@media screen and (min-width: 768px) {
+  .home_mb {
+   display: none;
+  }
+  
+ }
+
+ 
+@media screen and (min-width: 768px) {
+  .home_mb {
+   display: block;
+  }
+  
+ }
