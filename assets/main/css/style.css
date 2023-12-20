@@ -65,12 +65,18 @@
 .link_cs{
   color: var(--link-color);
   text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .link_cs:hover {
   color: blue;
 }
 
+.nav_cs{
+  font-size: 26px;
+  font-weight: 500;
+}
 
 /*------------------- Home page Section Begin ---------------------*/
 
@@ -87,14 +93,17 @@
   font-size: 20px;
 }
 
+.cat_text{
+  font-size: 22px;
+}
 
 .btn_cs:hover{
   background-color: #fc8888;
   color: #fff;
 }
 
-.recent_text{
-  font-size: 22px;
+.active_cs {
+  color: var(--btn-color) !important;
 }
 
 /*------------------- Home page Section End ---------------------*/
@@ -103,7 +112,7 @@
 /*------------------- Home Post page Section Begin ---------------------*/
 
 .resent_post {
-  background: #edf7fa;
+  background: #EDF7FA;
 }
 
 .card_cs{
@@ -113,6 +122,24 @@
 }
 
 /*------------------- Home Post page Section End ---------------------*/
+
+
+
+/* ########################### Featered Works Section Begin ########################## */
+
+.card_year{
+  font-family: 'heboo', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: #fff;
+  border-radius: 16px;
+  background: #142850;
+  padding: 5px 8px;
+}
+
+/* ########################### Featered Works Section End ########################## */
+
+
 
 /* ########################### Footered Section Begin ########################## */
 
@@ -125,6 +152,33 @@ text-decoration: none;
 }
 
 /* ########################### Footered Section End ########################## */
+
+
+/* ########################### Footer Section Begin ########################## */
+
+.coptright{
+  font-size: 14px;
+}
+
+.secial_media a {
+ text-decoration: none;
+}
+
+/* ########################### Footer Section End ########################## */
+
+/* ################# Resent Post Page Section Begin ################# */
+
+.resent_post{
+  background: #bce2ed;
+}
+
+.card_cs_blog {
+  border-radius: 4px;
+  border: none;
+} 
+
+
+/* ################# Resent Post Page Section End ################# */
 
 @media screen and (max-width: 768px) {
  .home_mb {
